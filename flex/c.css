@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 4px 6px rgba(98, 85, 85, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(174, 124, 124);
+  }
+  
+  .container p {
+    margin: 10;
+    font-size: rem;
+  }
+  #a{
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px, solid slategraytransparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    max-width: 200px;
+    max-height: 0out;
+    
+  }
+  #b{ 
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px, solid slategraytransparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: bold; 
+    width: 200px;
+  }
+
+  #c{
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px, solid slategraytransparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    width: 200px;
+  }
+  
+@media screen and (max-width: 600px){
+  #a{
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px, solid slategraytransparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    width: 200px;
+    
+  }
+  #b{ 
+    margin: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px, solid slategraytransparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: bold; 
+    width: 200px;
+  }
+}
